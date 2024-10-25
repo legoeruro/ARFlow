@@ -7,6 +7,8 @@ using UnityEngine.UI;
 using TMPro;
 using Unity.Profiling;
 
+using static ARFlow.OtherUtils;
+
 public class ARFlowUnityDataSample : MonoBehaviour
 {
     private bool _enabled;
@@ -152,7 +154,7 @@ public class ARFlowUnityDataSample : MonoBehaviour
         _depthTexture.Apply();
         var depthBytes = _depthTexture.GetRawTextureData();
 
-        Debug.Log($"pixelBytes length: {pixelBytes.Length}, depthBytes length: {depthBytes.Length}");
+        PrintDebug($"pixelBytes length: {pixelBytes.Length}, depthBytes length: {depthBytes.Length}");
         _client.SendFrame(new ProcessFrameRequest()
         {
             Color = ByteString.CopyFrom(pixelBytes),
