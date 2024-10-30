@@ -1,0 +1,16 @@
+Searching built-in plugins in directory C:\Users\lnntk\.dotnet\tools\.store\docfx\2.77.0\docfx\2.77.0\tools\net6.0\any\...
+Post processor ExtractSearchIndex loaded.
+7 plug-in(s) loaded.
+Building 2 file(s) in TocDocumentProcessor(BuildTocDocument)...
+Building 2 file(s) in ConceptualDocumentProcessor(BuildConceptualDocument=>ValidateConceptualDocumentMetadata)...
+Building 16 file(s) in ManagedReferenceDocumentProcessor(BuildManagedReferenceDocument=>SplitClassPageToMemberLevel=>ValidateManagedReferenceDocumentMetadata=>ApplyOverwriteDocumentForMref=>FillReferenceInformation)...
+Applying templates to 20 model(s)...
+XRef map exported.
+Extracting index data from 18 html files
+
+
+Build succeeded.
+
+    0 warning(s)
+    0 error(s)
+

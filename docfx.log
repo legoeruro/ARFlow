@@ -1,0 +1,7 @@
+FileNotFoundException: Cannot find config file C:\a_doohok_folder\junior\ARFlow\docfx.json
+  at (DocfxConfig , string configDirectory) GetConfig(string configFile) in Docset.cs:73                                                                                
+  at void <Execute>b__0() in BuildCommand.cs:23                                                                                                                         
+  at int Run(LogOptions options, Action run) in CommandHelper.cs:48                                                                                                     
+  at int Execute(CommandContext context, BuildCommandOptions settings) in BuildCommand.cs:15                                                                            
+  at Task<int> Execute(CommandContext context, CommandSettings settings) in CommandOfT.cs:40                                                                            
+  at async Task<int> Execute(CommandTree leaf, CommandTree tree, CommandContext context, ITypeResolver resolver, IConfiguration configuration) in CommandExecutor.cs:166
